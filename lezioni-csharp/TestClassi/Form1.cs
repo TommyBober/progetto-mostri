@@ -24,7 +24,10 @@ namespace TestClassi
 
             strongbonna.attack(charmender);
             charmender.attack(strongbonna);
+            strongbonna.healFactor = 30; // cambia il valore di cura 
             strongbonna.heal();
+            //strongbonna.curHp= 60; // cambia gli hp di cura correnti 
+            strongbonna.damage = 50; // cambia valore del danno 
             charmender.heal(strongbonna);
             strongbonna.attack(charmender);
             strongbonna.attack(charmender);
